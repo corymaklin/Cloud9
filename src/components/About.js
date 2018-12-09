@@ -4,8 +4,15 @@ import './About.css';
 const About = () => {
     return (
         <div className='about'>
-            <img src={ require('../assets/profile.jpg') } />
-            <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            <h1>Who We Are</h1>
+            <div className='partners'>
+                <img src={ require('../assets/profile.jpg') } />
+                <div>
+                    <h2>Cory Maklin</h2>
+                    <p>Cory is a full stack developer by trade, an AWS Certified Solutions Architect and . In his free time he makes tutorials on technical concepts.</p>
+                    <a href='https://www.youtube.com/channel/UCXewmpPZD3hw1uMSjXpk9Fw'><i className="fab fa-youtube"></i></a>
+                </div>
+            </div>
         </div>
     );
 }

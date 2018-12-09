@@ -6,15 +6,15 @@ const Mission = () => {
         <div className='mission'>
             <div>
                 <h2>Learn</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <p>Get trained in cloud technologies starting with the basics going to cutting edge development techniques. Students have moved on to take and pass Amazon Web Services (AWS), Microsoft Azure and Google Cloud certification exams.</p>
             </div>
             <div>
                 <h2>Build</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <p>Build complex solutions that take advantage of cloud services that are both cost efficient and easy to maintain.</p>
             </div>
             <div>
-                <h2>Save</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <h2>Analyze</h2>
+                <p>Save thounsands on operation costs by migrating over to a cloud provider of your choice.</p>
             </div>
         </div>
     );

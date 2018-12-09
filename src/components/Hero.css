@@ -1,5 +1,5 @@
 .hero {
-    grid-column: 1 / 4;
+    /* grid-column: 1 / 4; */
     height: 500px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/helloquence-61189-unsplash.jpg');
     background-size: cover;
@@ -7,15 +7,23 @@
     color: #E1E4EA;
     font-family: "Amazon Ember", "Helvetica", "sans-serif";
     font-weight: bold;
-    /* justify-self: center; */
-    /* align-self: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 {
+.hero h1 {
     text-transform: uppercase;
+    font-size: 50px;
 }
 
-button {
+.hero p {
+    width: 50%;
+    font-size: 20px;
+}
+
+.hero button {
     background: transparent;
     color: #E1E4EA;
     border: 2px solid #FF9900;
@@ -30,6 +38,6 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+.hero button:hover {
     background-color: #FF9900;
 }

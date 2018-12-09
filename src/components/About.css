@@ -1,18 +1,29 @@
-img {
-    border-radius: 100%;
-    width: 100%;
-}
 
 .about {
+    color:#232F3E;
+}
+
+.about h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.partners {
     grid-column: 1 / 4;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
-    color:#232F3E;
-    /* column-gap: 50px; */
-}
-
-p {
+    margin: 50px;
     text-align: center;
     align-self: center;
+}
+
+.partners img {
+    border-radius: 100%;
+    width: 70%;
+}
+
+.partners i {
+    font-size: 48px;
+    text-decoration: none;
+    color:#232F3E;
 }
