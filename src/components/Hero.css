@@ -5,6 +5,31 @@
     background-size: cover;
     background-position: center;
     color: #E1E4EA;
+    font-family: "Amazon Ember", "Helvetica", "sans-serif";
+    font-weight: bold;
     /* justify-self: center; */
     /* align-self: center; */
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+button {
+    background: transparent;
+    color: #E1E4EA;
+    border: 2px solid #FF9900;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 24px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 70px;
+    font-family: "Amazon Ember", "Helvetica", "sans-serif";
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FF9900;
 }

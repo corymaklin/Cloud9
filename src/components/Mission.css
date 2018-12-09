@@ -1,0 +1,8 @@
+.mission {
+    grid-column: 1 / 4;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    color:#232F3E;
+}

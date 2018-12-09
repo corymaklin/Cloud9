@@ -1,19 +1,20 @@
 import React from 'react';
+import './Mission.css';
 
 const Mission = () => {
     return (
-        <div>
+        <div className='mission'>
             <div>
-                <p>Build</p>
-                <p></p>
+                <h2>Learn</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
             </div>
             <div>
-                <p>Learn</p>
-                <p></p>
+                <h2>Build</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
             </div>
             <div>
-                <p>Save</p>
-                <p></p>
+                <h2>Save</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
             </div>
         </div>
     );

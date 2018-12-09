@@ -1,0 +1,18 @@
+img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.about {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    color:#232F3E;
+    /* column-gap: 50px; */
+}
+
+p {
+    text-align: center;
+    align-self: center;
+}
