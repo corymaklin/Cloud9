@@ -17,6 +17,10 @@
     align-self: center;
 }
 
+.partners p {
+    font-size: 20px;
+}
+
 .partners img {
     border-radius: 100%;
     width: 70%;

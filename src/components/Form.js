@@ -21,7 +21,7 @@ class Form extends Component {
 
         e.preventDefault();
     
-        const API_URL = 'https://9lwd0zdduj.execute-api.us-east-1.amazonaws.com/prod/contact';
+        const API_URL = '';
         
         fetch(API_URL, {
             method: 'POST',

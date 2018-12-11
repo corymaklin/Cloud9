@@ -5,16 +5,16 @@ const Mission = () => {
     return (
         <div className='mission'>
             <div>
-                <h2>Learn</h2>
-                <p>Get trained in cloud technologies starting with the basics going to cutting edge development techniques. Students have moved on to take and pass Amazon Web Services (AWS), Microsoft Azure and Google Cloud certification exams.</p>
+                <h2>Teaching</h2>
+                <p>We'll help you and your team get up to speed on basics to cutting edge development techniques.</p>             
             </div>
             <div>
-                <h2>Build</h2>
-                <p>Build complex solutions that take advantage of cloud services that are both cost efficient and easy to maintain.</p>
+                <h2>Contracting</h2>
+                <p>We'll develop secure fault tolerant applications that are easy to maintain and scale.</p>
             </div>
             <div>
-                <h2>Analyze</h2>
-                <p>Save thounsands on operation costs by migrating over to a cloud provider of your choice.</p>
+                <h2>Consulting</h2>
+                <p>We'll figure out how much you stand to save by migrating over to the cloud. We'll help you pick and architect the best solution that meets your needs.</p>
             </div>
         </div>
     );
