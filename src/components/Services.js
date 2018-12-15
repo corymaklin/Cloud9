@@ -1,18 +1,18 @@
 import React from 'react';
-import './Mission.css';
+import './Services.css';
 
-const Mission = () => {
+const Services = () => {
     return (
-        <div className='mission'>
-            <div>
+        <div className='services'>
+            <div className='services-item'>
                 <h2>Teaching</h2>
                 <p>We'll help you and your team get up to speed on basics to cutting edge development techniques.</p>             
             </div>
-            <div>
+            <div className='services-item'>
                 <h2>Contracting</h2>
                 <p>We'll develop secure fault tolerant applications that are easy to maintain and scale.</p>
             </div>
-            <div>
+            <div  className='services-item'>
                 <h2>Consulting</h2>
                 <p>We'll figure out how much you stand to save by migrating over to the cloud. We'll help you pick and architect the best solution that meets your needs.</p>
             </div>
@@ -20,4 +20,4 @@ const Mission = () => {
     );
 }
 
-export default Mission;
+export default Services;

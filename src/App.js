@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Mission from './components/Mission';
+import Services from './components/Services';
 import About from './components/About';
 import Form from './components/Form';
 import Footer from './components/Footer';
@@ -35,11 +35,9 @@ class App extends Component {
       <div>
           <Navbar navigateToContactForm={ this.navigateToContactForm } />
           <Hero navigateToAboutSection={ this.navigateToAboutSection } />
-          <div id='container'>
-            <Mission />
-            <About aboutSection={ this.aboutSection } />
-            <Form contactFormRef={ this.contactFormRef } />
-          </div>
+          <Services />
+          <About aboutSection={ this.aboutSection } />
+          <Form contactFormRef={ this.contactFormRef } />
           <Footer />
       </div>
     );

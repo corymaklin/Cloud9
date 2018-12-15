@@ -10,7 +10,7 @@ class About extends Component {
                     <img src={ require('../assets/profile.jpg') } />
                     <div className='bio'>
                         <h1>Cory Maklin</h1>
-                        <p>Cory is a full stack developer by trade, an AWS Certified Solutions Architect and teacher. In his free time he makes tutorials on technical concepts such as React, Serverless and Machine Learning.</p>
+                        <p>Cory is a full stack developer by trade, an AWS certified solutions architect and teacher. In his free time he makes tutorials on technical concepts such as React, Serverless and Machine Learning.</p>
                         <a href='https://www.youtube.com/channel/UCXewmpPZD3hw1uMSjXpk9Fw'><i className="fab fa-youtube"></i></a>
                     </div>
                 </div>

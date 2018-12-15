@@ -1,16 +1,14 @@
 .hero {
-    /* grid-column: 1 / 4; */
-    height: 500px;
+    min-height: 500px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/helloquence-61189-unsplash.jpg');
     background-size: cover;
     background-position: center;
     color: #E1E4EA;
     font-family: "Amazon Ember", "Helvetica", "sans-serif";
     font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    justify-items: center;
+    text-align: center;
 }
 
 .hero h1 {
@@ -21,11 +19,11 @@
 .hero p {
     width: 50%;
     font-size: 26px;
-    text-align: center;
 }
 
 .hero button {
     background: transparent;
+    height: 80px;
     color: #E1E4EA;
     border: 2px solid #FF9900;
     padding: 16px 32px;
@@ -37,8 +35,10 @@
     border-radius: 70px;
     font-family: "Amazon Ember", "Helvetica", "sans-serif";
     font-weight: bold;
+    margin-bottom: 24px;
 }
 
 .hero button:hover {
     background-color: #FF9900;
 }
+

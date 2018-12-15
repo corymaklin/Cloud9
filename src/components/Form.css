@@ -1,6 +1,7 @@
 .joe {
     color:#232F3E;
     font-family: "Amazon Ember", "Helvetica", "sans-serif";
+    margin: 10px;
 }
 
 .joe h1 {
@@ -57,4 +58,10 @@
     height: 60px;
     font-size: 16px;
     
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .submit {
+        margin-left: 0;
+    }    
 }
